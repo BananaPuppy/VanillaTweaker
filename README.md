@@ -1,12 +1,15 @@
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/YkgyoOwX?style=for-the-badge&logo=modrinth&logoColor=%2300AF5C&label=Modrinth&labelColor=%2326292f)](https://modrinth.com/mod/vanilla-tweaker)
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/BananaPuppy/VanillaTweaker/master?style=for-the-badge&logo=github&logoColor=%23181717&label=Github)](https://github.com/BananaPuppy/VanillaTweaker)
+
 ## Vanilla Tweaker
 Many common tweaks in one mod!<br>
 Configurable!
 
 <details>
 <summary style="font-size:18px">
-Default Tweaks and How to Use Config
+Default Tweaks and Config Use Notes
 </summary>
-reload config from file: <b><i>/reloadconfig vtweaker</i></b><br><br>
+To reload config <b><i>/reloadconfig vtweaker</i></b><br><br>
 
 <b>Compost</b><br>
 • Rotten Flesh 10%, Glistening Melon Slice 50%, Poisonous Potato 30%<br>
@@ -44,8 +47,8 @@ No "Respawn point set" message in hardcore
 ### Issues & Feature Requests
 This mod should be compatible with other mods<br>
 If you have any issues, or have a feature request<br>
-- [Github Issue Tracker](https://github.com/BananaPuppy/VanillaTweaker/issues/new/choose)
-- [Discord](https://discord.gg/6fb4sQjQwk)
+• [Github Issue Tracker](https://github.com/BananaPuppy/VanillaTweaker/issues/new/choose)<br>
+• [Discord](https://discord.gg/6fb4sQjQwk)
 
 ### Known Issues & Future Features
 • /reloadconfig doesn't properly remove previously added compostables/fuels sometimes,<br>

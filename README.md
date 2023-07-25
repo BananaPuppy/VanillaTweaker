@@ -48,7 +48,7 @@ If you have any issues, or have a feature request<br>
 - [Discord](https://discord.gg/6fb4sQjQwk)
 
 ### Known Issues & Future Features
-• /reloadconfig doesn't properly remove custom added compostables/fuels sometimes,<br>
+• /reloadconfig doesn't properly remove previously added compostables/fuels sometimes,<br>
 requiring a game restart<br>
 • Allow death item despawn times greater than 1939 seconds *≈ 32 minutes*<br>
 • Custom Villager Rep Decay(up/down) and multiplier instead of on/off<br>

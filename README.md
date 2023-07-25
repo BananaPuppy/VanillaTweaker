@@ -1,53 +1,59 @@
-## Project Build Guide
-Open build.gradle with IntelliJ
+## Vanilla Tweaker
+Many common tweaks in one mod!<br>
+Configurable!
 
-Edit
-- gradle.properties
-  - mod_version 
-  - maven_group (net.yourname)
-  - archives_base_name (mod id)
-  - https://fabricmc.net/develop/
-    - minecraft_version 
-    - yarn_mappings 
-    - loader_version 
-    - fabric_version 
-- /src/*
-  - /java/maven_group/mod_id
-  - resources 
-    - /assets/mod_id
-    - /data/mod_id
-	- mod_id.mixins.json
-	- fabric.mod.json
-		- id, entrypoints
+<details>
+<summary style="font-size:18px">
+Default Tweaks and How to Use Config
+</summary>
+reload config from file: <b><i>/reloadconfig vtweaker</i></b><br><br>
 
+<b>Compost</b><br>
+• Rotten Flesh 10%, Glistening Melon Slice 50%, Poisonous Potato 30%<br>
+• <i>NOTE: "-minecraft:item" is the format for removing</i><br>
+<b>Fuel</b><br>
+• Magma Block 1600 <i>seconds</i><br>
+• <i>NOTE: "-minecraft:item" is the format for removing</i><br>
+<b>Shield Delay</b><br>
+• 0 <i>ticks</i><br>
+<b>Death Item Despawn</b><br>
+• 1800 <i>seconds</i><br>
+<b>disableVillagerRepDecay</b><br>
+• true<br>
+<b>Silktouch Mob Spawners</b><br>
+• true<br>
+<b>Right Click Harvest</b><br>
+• true
+</details>
 
-	./gradlew --stop
+<details>
+<summary style="font-size:18px">
+Vanilla Reference Variables
+</summary>
+<b>Shield Delay</b><br>
+• 5<br>
+<b>Death Item Despawn</b><br>
+• 300 seconds<br>
+• NEVER despawn >= 1940 seconds
+</details>
 
-Gradle >Tasks >fabric >genSources
+### What other changes does this mod make?
+Bed is never "Too Far Away"<br>
+No "Respawn point set" message in hardcore
 
-### Github Publish
-Alt+` >Enable Version Control Integration >Git<br>
-Git >Github >Share Project On Github
+### Issues & Feature Requests
+This mod should be compatible with other mods<br>
+If you have any issues, or have a feature request<br>
+- [Github Issue Tracker](https://github.com/BananaPuppy/VanillaTweaker/issues/new/choose)
+- [Discord](https://discord.gg/6fb4sQjQwk)
 
-### Build
-Gradle >Tasks >build >build
-- The .jar can be found in /build/libs/
-
-## Modrinth Release
-Complete TODO: comments<br>
-Clean up warnings<br>
-fabric.mod.json
-- Name, Description(Summary), Authors, Icon, Depends
-
-Build & Run & Stress Test<br>
-
-**Modrinth Page**
-- Icon, Name, Summary, Tags
-- Client Required? Server Required?
-- License, link to LICENSE on repo
-- Links(Issue Tracker, Repo, Etc)
-- Members, Gallery
-- Upload Version
-- Description from README_TEMPLATE.md
-- commit new README to github
-- Submit for review
+### Known Issues & Future Features
+• /reloadconfig doesn't properly remove custom added compostables/fuels sometimes,<br>
+requiring a game restart<br>
+• Allow death item despawn times greater than 1939 seconds *≈ 32 minutes*<br>
+• Custom Villager Rep Decay(up/down) and multiplier instead of on/off<br>
+• Rewrite Config implementation to make it cleaner and more foolproof<br>
+• Mod Menu Config<br>
+• Hot reload config without /reloadconfig vtweaker<br>
+• Datapack integration<br>
+• API????<br>

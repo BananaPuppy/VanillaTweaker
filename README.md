@@ -1,6 +1,5 @@
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/BananaPuppy/VanillaTweaker/master?style=for-the-badge&logo=github&logoColor=%23181717&label=Github)](https://github.com/BananaPuppy/VanillaTweaker)
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/YkgyoOwX?style=for-the-badge&logo=modrinth&logoColor=%2300AF5C&label=Modrinth)](https://modrinth.com/mod/vanilla-tweaker)
-[![Curseforge Downloads](https://cf.way2muchnoise.eu/893636.svg?badge_style=for_the_badge)](https://legacy.curseforge.com/minecraft/mc-mods/vanilla-tweaker)
 
 ## Vanilla Tweaker
 Many common tweaks in one mod!<br>
